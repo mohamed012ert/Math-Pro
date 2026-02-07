@@ -3,36 +3,53 @@
 
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Math Pro Academy - تعلم الرياضيات</title>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;800&family=Cairo:wght@400;600;700&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Eng. Mohamed Mostafa | معلم رياضيات</title>
+  
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+  
   <link rel="stylesheet" href="./css/style.css" />
+  
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 </head>
+
 <body>
 
-  <!-- ================= NAVBAR ================= -->
-  <nav class="navbar navbar-expand-lg py-3">
+  <a href="https://wa.me/201207042467" class="floating-whatsapp d-md-none" target="_blank">
+    <div class="whatsapp-icon-box">
+      <i class="bi bi-whatsapp"></i>
+    </div>
+    <div class="whatsapp-text">
+      <span class="action-text">تواصل واتساب أو فون</span>
+      <span class="phone-number" dir="ltr">01207042467</span>
+    </div>
+  </a>
+
+  <nav class="navbar navbar-expand-lg fixed-top">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center gap-2" href="#">
-        <small style="opacity:.6">Learn Online</small>
-        <span class="brand-mark">Math Pro Academy</span>
-       
+        <div class="brand-icon">M</div>
+        <div class="d-flex flex-column">
+          <span class="brand-name">Eng. Mohamed Mostafa</span>
+          <small class="brand-sub">Mathematics Expert</small>
+        </div>
       </a>
 
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
-        <span class="navbar-toggler-icon"></span>
+      <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+        <span class="bi bi-list fs-1 text-primary"></span>
       </button>
 
       <div class="collapse navbar-collapse justify-content-end" id="navMenu">
-        <ul class="navbar-nav align-items-center">
-          <li class="nav-item"><a class="nav-link" href="#curriculum">المناهج</a></li>
-          <li class="nav-item"><a class="nav-link" href="#features">المميزات</a></li>
-          <li class="nav-item"><a class="nav-link" href="#pricing">الباقات</a></li>
-          <li class="nav-item"><a class="nav-link" href="#testimonials">آراء أولياء الأمور</a></li>
-          <li class="nav-item">
-            <a class="nav-link btn btn-sm btn-outline-primary ms-2" href="#contact">
-              احجز الآن
+        <ul class="navbar-nav align-items-center text-center gap-3 pt-3 pt-lg-0">
+          <li class="nav-item"><a class="nav-link" href="#curriculum"></a></li>
+          <li class="nav-item"><a class="nav-link" href="#features">لماذا أنا؟</a></li>
+          <li class="nav-item d-none d-lg-block">
+            <a class="btn btn-main rounded-pill px-4" href="#contact">
+              <i class="bi bi-whatsapp"></i> تواصل معي
             </a>
           </li>
         </ul>
@@ -40,179 +57,204 @@
     </div>
   </nav>
 
-  <!-- ================= HERO ================= -->
-  <header class="hero">
-    <div class="hero-grid">
+  <header class="hero-section d-flex align-items-center">
+    <div class="container">
+      <div class="row align-items-center flex-column-reverse flex-lg-row">
+        
+        <div class="col-lg-6 text-center text-lg-end mt-4 mt-lg-0">
+          <div class="badge-custom mb-3">🚀 American & British Curriculum</div>
+          <h1 class="display-4 fw-bold mb-3 lh-base">
+            الرياضيات مش صعبة.. <br>
+            <span class="highlight-text">محتاجة اللي يبسطها!</span>
+          </h1>
+          <p class="lead text-muted mb-4">
+            مع <strong>المهندس محمد مصطفى</strong>، ابنك هيفهم الرياضيات بأسلوب هندسي مبسط. تأسيس قوي، ومتابعة للمناهج الدولية (IGCSE, SAT, American).
+          </p>
+          
+          <div class="d-flex gap-2 justify-content-center justify-content-lg-end flex-wrap">
+            <a href="#contact" class="btn btn-main btn-lg shadow-lg">
+              🎁 احجز حصة تجريبية مجانية
+            </a>
+            <a href="#curriculum" class="btn btn-outline-primary btn-lg">
+              شاهد التفاصيل
+            </a>
+          </div>
 
-      <div class="text-area">
-        <h1 class="mb-2 text-center">🚀 تعلم الرياضيات</h1>
-        <h1 class="mb-2 text-center">American & British Curriculum</h1>
-
-        <p class="lead" style="opacity:.95">حصص مباشرة، واجبات تفاعلية، متابعة شخصية.</p>
-
-        <div class="d-flex gap-3 align-items-center mt-4">
-          <a class="btn btn-primary-ghost" href="#features">🎁 جرب الحصة المجانية</a>
-          <a class="btn btn-primary-ghost" href="https://wa.me/201221122383" target="_blank">📲 تواصل عبر واتساب</a>
+          <div class="mt-4 d-flex align-items-center justify-content-center justify-content-lg-end gap-4 text-muted small">
+            <div><i class="bi bi-check-circle-fill text-success"></i> حصص أونلاين تفاعلية</div>
+            <div><i class="bi bi-check-circle-fill text-success"></i> متابعة دورية</div>
+          </div>
         </div>
 
-        <div class="row mt-4 g-3">
-          <div class="col-12 col-md-4 card-modern reveal">
-            <div class="d-flex align-items-center justify-content-between">
+        <div class="col-lg-6 text-center">
+          <div class="hero-image-container floating">
+            <img src="./imgs/math.png" alt="Eng Mohamed" class="img-fluid main-img">
+            
+            <div class="floating-card glass-card">
+              <div class="icon">📈</div>
               <div>
-                <div class="small text-muted">طلاب سعداء</div>
-                <div class="counter" data-target="120">0</div>
+                <strong>تحسن ملحوظ</strong>
+                <span class="d-block x-small">في مستوى الطلاب</span>
               </div>
-              <div style="font-size:28px;opacity:.8">😊</div>
             </div>
           </div>
         </div>
+
       </div>
-
-      <div class="visual text-center">
-        <div class="card-modern floating" style="max-width:420px;margin:auto">
-          <img src="./imgs/math.jpg" alt="Math" style="width:100%;border-radius:14px;display:block">
-
-          <div class="mt-3 text-start">
-            <div style="text-align:center; font-weight:800;color:#04ff60">🎁 أول حصة مجانية</div>
-            <div class="small text-muted">جرب حصتك الاوله مجانا</div>
-          </div>
-        </div>
-      </div>
-
     </div>
   </header>
 
-  <!-- ================= FEATURES ================= -->
-  <section id="features" class="py-5">
+  <section class="stats-bar py-4">
     <div class="container">
-      <div class="row align-items-center">
-
-        <div class="col-lg-6">
-
-          <h2 class="reveal">لماذا تختارنا؟</h2>
-          <p class="text-muted reveal">
-            تعليم باسلوب حديث ومتميز ، مدرس متخصص، ودعم مستمر —
-             كل شيء لترسيخ مفهوم الرياضيات لدى الطالب باسلوب مميز وسهل.
-          </p>
-
-          <div class="features mt-4">
-
-            <div class="card-modern reveal d-flex gap-3 align-items-start">
-              <div class="feature-icon">A</div>
-              <div>
-                <h5>شرح مبسّط</h5>
-                <p class="small text-muted">شرح خطوة بخطوة مع أمثلة تطبيقية.</p>
-              </div>
-            </div>
-
-            <div class="card-modern reveal d-flex gap-3 align-items-start">
-              <div class="feature-icon">T</div>
-              <div>
-                <h5>استخدام ادوات حديثه في الشرح</h5>
-                <p class="small text-muted">لتحثين مسوى الفهم لدي الطالب</p>
-              </div>
-            </div>
-
-            <div class="card-modern reveal d-flex gap-3 align-items-start">
-              <div class="feature-icon">📺</div>
-              <div>
-                <h5>فيديوهات مرجعية</h5>
-                <p class="small text-muted">تسجيلات الحصص متاحة 24/7.</p>
-              </div>
-            </div>
-
-            <div class="card-modern reveal d-flex gap-3 align-items-start">
-              <div class="feature-icon">👨‍🏫</div>
-              <div>
-                <h5>متابعة شخصية</h5>
-                <p class="small text-muted">خطة تعليمية لكل طالب حسب مستواه.</p>
-              </div>
-            </div>
-
-          </div>
-
+      <div class="row g-4 text-center justify-content-center">
+        <div class="col-4 col-md-3">
+          <h3 class="fw-bold text-primary m-0">+<span class="counter" data-target="500">0</span></h3>
+          <small>طالب</small>
         </div>
-
-        <div class="hook col-lg-6">
-          <div class="card-modern p-4 reveal">
-            <h4>احجز حصتك الاوله المجانيه 🎁
-            </h4>
-            <p class="small text-muted">ادخل بياناتك وسنراسلك على الواتساب لتأكيد الموعد.</p>
-
-            <form id="bookingForm">
-
-              <div class="mb-2">
-                <input class="form-control" id="name" placeholder="الاسم الكامل" required>
-              </div>
-
-              <div class="mb-2">
-                <input class="form-control" id="studentGrade" placeholder="الصف (مثال: Grade 6)" required>
-              </div>
-
-              <button class="btn btn-primary w-100" type="submit">
-                احجز الآن عبر واتساب
-              </button>
-
-            </form>
-          </div>
+        <div class="col-4 col-md-3">
+          <h3 class="fw-bold text-primary m-0">+<span class="counter" data-target="1000">0</span></h3>
+          <small>ساعة شرح</small>
         </div>
-
+        <div class="col-4 col-md-3">
+          <h3 class="fw-bold text-primary m-0">100%</h3>
+          <small>اهتمام</small>
+        </div>
       </div>
     </div>
   </section>
 
-  <!-- ================= JS ================= -->
+  <section id="features" class="py-5 bg-light position-relative overflow-hidden">
+    <div class="container">
+      <div class="text-center mb-5">
+        <h2 class="fw-bold">ليه تختار الدراسة مع بشمهندس؟</h2>
+        <p class="text-muted">الفرق بين الحفظ والفهم هو أسلوب الشرح</p>
+      </div>
+
+      <div class="row g-3">
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-card h-100">
+            <div class="f-icon bg-blue">🧠</div>
+            <h5>عقلية هندسية</h5>
+            <p>مش بنحفظ قوانين، بنفهم جت منين عشان تثبت في الدماغ.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-card h-100">
+            <div class="f-icon bg-green">📱</div>
+            <h5>تكنولوجيا حديثة</h5>
+            <p>استخدام تابلت وجرافيكس لتوضيح المسائل المعقدة.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-card h-100">
+            <div class="f-icon bg-orange">🎥</div>
+            <h5>حصة مسجلة</h5>
+            <p>كل حصة بتتسجل فيديو عشان الطالب يراجعها في أي وقت.</p>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-3">
+          <div class="feature-card h-100">
+            <div class="f-icon bg-purple">📝</div>
+            <h5>تقرير لولي الأمر</h5>
+            <p>متابعة أسبوعية لمستوى ابنك عشان تكون مطمن دايماً.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="py-5 section-booking">
+    <div class="container">
+      <div class="booking-card glass-card p-4 p-lg-5">
+        <div class="row align-items-center">
+          <div class="col-lg-6 mb-4 mb-lg-0 text-center text-lg-end">
+            <h2 class="fw-bold mb-2">جاهز تبدأ رحلة التفوق؟ 🚀</h2>
+            <p class="mb-4 opacity-75">الحصة الأولى (تحديد مستوى) مجانية تماماً لفترة محدودة.</p>
+            <div class="alert alert-success d-inline-block py-2 px-3 rounded-3 mb-0">
+              <small>⚡ رد فوري وسريع على الواتساب</small>
+            </div>
+          </div>
+
+          <div class="col-lg-6">
+            <form id="waForm" class="bg-white p-4 rounded-4 shadow-sm">
+              <div class="mb-3">
+                <label class="form-label small fw-bold text-muted">اسم الطالب</label>
+                <input type="text" id="sName" class="form-control bg-light border-0" placeholder="مثال: أحمد محمد">
+              </div>
+              <div class="mb-3">
+                <label class="form-label small fw-bold text-muted">المرحلة الدراسية</label>
+                <select id="sGrade" class="form-select bg-light border-0">
+                  <option selected disabled>اختر المرحلة...</option>
+                  <option value="Grade 4-6">Primary (Grade 4-6)</option>
+                  <option value="Grade 7-9">Middle School (Grade 7-9)</option>
+                  <option value="High School">High School / IGCSE</option>
+                  <option value="SAT/ACT">SAT / ACT Prep</option>
+                </select>
+              </div>
+              
+              <button type="submit" class="btn btn-whatsapp w-100 fw-bold py-2 mb-3">
+                <i class="bi bi-whatsapp"></i> حجز موعد عبر واتساب
+              </button>
+
+              <a href="tel:+201207042467" class="btn btn-outline-secondary w-100 btn-sm">
+                <i class="bi bi-telephone"></i> أو اتصل بي مباشرة: 01207042467
+              </a>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="text-center py-4 text-muted small">
+    <div class="container">
+      <p class="mb-1">Eng. Mohamed Mostafa © 2026</p>
+      <p>Making Math Simple & Fun</p>
+    </div>
+  </footer>
+
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
-
+  
   <script>
-    // Animation on scroll
-    const revealEls = document.querySelectorAll('.reveal');
-    const io = new IntersectionObserver((entries) => {
-      entries.forEach(e => {
-        if (e.isIntersecting) e.target.classList.add('visible');
-      })
-    }, { threshold: 0.12 });
-    revealEls.forEach(el => io.observe(el));
+    // 1. WhatsApp Form Handler
+    document.getElementById('waForm').addEventListener('submit', function(e) {
+      e.preventDefault();
+      
+      const name = document.getElementById('sName').value;
+      const grade = document.getElementById('sGrade').value;
+      
+      if(!name || grade === "اختر المرحلة...") {
+        alert("يرجى كتابة الاسم واختيار المرحلة");
+        return;
+      }
 
-    // Counter animation
-    document.querySelectorAll('.counter').forEach(counter => {
-      const target = +counter.dataset.target;
-      let current = 0;
-      const step = Math.max(1, Math.floor(target / 120));
+      // الرسالة التي ستصلك على الواتساب
+      const message = `مرحباً بشمهندس محمد،%0aأنا ولي أمر الطالب: *${name}*%0aالمرحلة: *${grade}*%0aأرغب في حجز الحصة التجريبية المجانية.`;
+      
+      // فتح الواتساب
+      window.open(`https://wa.me/201207042467?text=${message}`, '_blank');
+    });
 
-      const update = () => {
-        current += step;
-        if (current >= target) counter.innerText = target;
-        else {
-          counter.innerText = current;
-          requestAnimationFrame(update);
+    // 2. Simple Counter Animation
+    const counters = document.querySelectorAll('.counter');
+    counters.forEach(counter => {
+      counter.innerText = '0';
+      const updateCounter = () => {
+        const target = +counter.getAttribute('data-target');
+        const c = +counter.innerText;
+        const increment = target / 100;
+        if(c < target) {
+          counter.innerText = `${Math.ceil(c + increment)}`;
+          setTimeout(updateCounter, 20);
+        } else {
+          counter.innerText = target;
         }
       };
-      update();
-    });
-
-    // WhatsApp booking
-    document.getElementById('bookingForm')?.addEventListener('submit', function (e) {
-      e.preventDefault();
-      const name = document.getElementById('name').value || '';
-      const grade = document.getElementById('studentGrade').value || '';
-      const text = encodeURIComponent(`مرحبًا، انا ${name} - طالب/طالبة في ${grade}. ارغب في الحجز للحصة التجريبية.`);
-      window.open(`https://wa.me/201221122383?text=${text}`, '_blank');
-    });
-
-    // Smooth scroll
-    document.querySelectorAll('a.nav-link').forEach(a => {
-      a.addEventListener('click', function (e) {
-        const href = this.getAttribute('href');
-        if (href && href.startsWith('#')) {
-          e.preventDefault();
-          document.querySelector(href)?.scrollIntoView({ behavior: 'smooth', block: 'start' });
-        }
-      })
+      updateCounter();
     });
   </script>
-
 </body>
-
 </html>
-
